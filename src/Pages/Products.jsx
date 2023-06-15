@@ -31,15 +31,18 @@ export default function Inicio(props) {
           </h2>
         }
       >
+        
         <div className="py-12">
           <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
-            <div className="bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg p-4">
+            
+            <div className="dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg p-4">
               <PrimaryButton onClick={() => openModal(1)}>
                 <i className="fa-solid fa-plus-circle"></i>
-                Añadir
+                +Crear Producto
               </PrimaryButton>
-              
             </div>
+
+            
           </div>
         </div>
         <div className="bg-white grid max-w-full mx-auto place-items-center p-6">
@@ -57,6 +60,14 @@ export default function Inicio(props) {
                 <th className="px-2 py-2">Fecha de compra</th>
                 <th className="px-2 py-2">Categoria</th>
                 <th className="px-2 py-2">Acción</th>
+
+                <button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">
+                  Editar
+                </button>
+
+                <button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">
+                  Eliminar
+                </button>
               </tr>
             </thead>
           </table>
