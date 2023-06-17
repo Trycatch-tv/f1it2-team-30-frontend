@@ -4,7 +4,7 @@ function Users() {
   return (<AuthenticatedLayout
     header={
       <h2 className="font-semibold text-2xl text-gray-800 dark:text-[#404750] leading-tight">
-        Lista de Categorias
+        Lista de Usuarios
       </h2>
     }
   >
