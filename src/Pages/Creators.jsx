@@ -202,7 +202,7 @@ function Creators() {
                                 <div class="rounded overflow-hidden shadow-md bg-white">
                                     <div class="absolute -mt-20 w-full flex justify-center">
                                         <div class="h-32 w-32">
-                                            <img src="https://media.licdn.com/dms/image/D5635AQGXW0U7XhrOLA/profile-framedphoto-shrink_200_200/0/1660002666757?e=1687611600&v=beta&t=L2OzsHLBbgMitTYGm4cxYQ7ksk7I4UuTU2bJVhNzdkQ" 
+                                            <img src="https://media.licdn.com/dms/image/D4E35AQHHneVMiLuhbQ/profile-framedphoto-shrink_200_200/0/1687049316189?e=1687654800&v=beta&t=gINetnC_grk9sFxxtyqJnUIqYfX1egM0fKGjWVf2hXQ" 
                                             alt="Display Picture of Juan Camilo García" 
                                             role="img" class="rounded-full object-cover h-full w-full shadow-md" />
                                         </div>
