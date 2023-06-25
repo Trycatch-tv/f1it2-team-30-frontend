@@ -105,7 +105,6 @@ function EditarProducto({ productId, index, actualizarProducto }) {
       console.error("Error al editar el producto:", error.message);
     }
     navigate("/");
-    navigate("/products");
   };
 
   const openModal = () => {

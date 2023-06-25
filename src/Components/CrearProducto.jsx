@@ -1,7 +1,6 @@
 /* eslint-disable react/prop-types */
 import axios from "axios";
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
 import InputLabel from "./InputLabel";
 import Modal from "./Modal";
 import PrimaryButton from "./PrymaryButton";
@@ -19,7 +18,7 @@ const api = axios.create({
 
 function CrearProducto({ agregarProducto }) {
   const [modal, setModal] = useState(false);
-  const navigate = useNavigate();
+
   const [category, setCategory] = useState({
     category_name: "",
   });
@@ -57,7 +56,6 @@ function CrearProducto({ agregarProducto }) {
 
       agregarProducto(newProduct, newCategory);
       setModal(false);
-      navigate("/products");
 
       // Realizar cualquier acción adicional que desees después de agregar el producto
       // por ejemplo, actualizar la tabla con los nuevos datos
