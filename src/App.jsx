@@ -18,7 +18,6 @@ function App() {
       {/* <Menu /> */}
       <Routes>
         <Route path="/" element={<Products />} />
-        <Route path="/products" element={<Products />} />
         <Route path="/create" element={<CrearProducto />} />
         <Route path="/edit/:id" element={<EditarProducto />} />
         <Route path="/categories" element={<Categories />} />

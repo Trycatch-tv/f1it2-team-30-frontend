@@ -12,7 +12,7 @@ function SideBar() {
     <div className="z-10 absolute flex w-72 h-full flex-col mt-[0.4px] bg-[#FDEFCE]">
       <nav className="flex flex-1 pt-16 p-2 flex-col gap-10">
         <div className="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
-          <NavLink className="text-xl gap-2" to="/products">
+          <NavLink className="text-xl gap-2" to="/">
             <IconProduct />
             Lista de Productos
           </NavLink>
