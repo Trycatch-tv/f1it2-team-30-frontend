@@ -177,7 +177,7 @@ export default function Authenticated({ auth, header, children }) {
       <div className="w-full relative bg-white/25 h-screen max-w-full mx-auto">
         <SideBar />
 
-        <main className="absolute flex flex-col w-full h-full flex-1 pl-72 bg-[#E5F096] rounded-sm">
+        <main className="absolute flex flex-col w-full h-full flex-1 pl-80 pr-8 bg-[#E5F096] rounded-sm">
           {children}
         </main>
       </div>

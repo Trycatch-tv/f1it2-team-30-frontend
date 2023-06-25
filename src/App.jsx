@@ -8,7 +8,8 @@ import Login from "./Pages/Login";
 import Products from "./Pages/Products";
 import Users from "./Pages/Users";
 
-import Inicio from "./Pages/Inicio";
+import CrearProducto from "./Components/CrearProducto";
+import EditarProducto from "./Components/EditarProducto";
 import NotFound from "./Pages/NotFound";
 
 function App() {
@@ -16,8 +17,10 @@ function App() {
     <BrowserRouter>
       {/* <Menu /> */}
       <Routes>
-        <Route path="/" element={<Inicio />} />
+        <Route path="/" element={<Products />} />
         <Route path="/products" element={<Products />} />
+        <Route path="/create" element={<CrearProducto />} />
+        <Route path="/edit/:id" element={<EditarProducto />} />
         <Route path="/categories" element={<Categories />} />
         <Route path="/creators" element={<Creators />} />
         <Route path="/dashboard" element={<Dashboard />} />
