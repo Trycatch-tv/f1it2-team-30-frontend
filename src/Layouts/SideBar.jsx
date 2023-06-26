@@ -1,11 +1,5 @@
 import NavLink from "../Components/NavLink";
-import {
-  IconChart,
-  IconCreate,
-  IconProduct,
-  IconTable,
-  IconUsers,
-} from "../assets/Icons";
+import { IconChart, IconCreate, IconProduct, IconTable } from "../assets/Icons";
 
 function SideBar() {
   return (
@@ -29,12 +23,7 @@ function SideBar() {
             Tablero de control
           </NavLink>
         </div>
-        <div className="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
-          <NavLink className="text-xl gap-2" to="/users">
-            <IconUsers />
-            Usuarios
-          </NavLink>
-        </div>
+
         <div className="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
           <NavLink className="text-xl gap-2" to="/creators">
             <IconCreate />
